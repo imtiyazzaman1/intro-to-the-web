@@ -21,5 +21,7 @@ get '/fencing' do
 end
 
 get '/cat' do
-  "<img src='http://bit.ly/1eze8aE' alt='A cat' style='  border: dashed red'>"
+  "<div style= 'border: dashed red'>
+  <img src='http://bit.ly/1eze8aE' alt='A cat'>
+  </div>"
 end
